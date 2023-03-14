@@ -129,15 +129,15 @@ canvas.create_text(
     fill="#FFFFFF",
     font=("AnonymousPro Bold", 50 * -1)
 )
-Gen_key_btn = PhotoImage(file='1.png')
+Gen_key_btn = PhotoImage(file='assets/1.png')
 scan_button = tk.Button(root, image=Gen_key_btn,borderwidth=0,highlightthickness=0, command=keyGenerate)
 scan_button.place(x=290, y=200)
 
-Gen_key_btn2 = PhotoImage(file='2.png')
+Gen_key_btn2 = PhotoImage(file='assets/2.png')
 scan_button = tk.Button(root, image=Gen_key_btn2,borderwidth=0,highlightthickness=0, command=encryptQR)
 scan_button.place(x=290, y=300)
 
-Gen_key_btn3 = PhotoImage(file='3.png')
+Gen_key_btn3 = PhotoImage(file='assets/3.png')
 scan_button = tk.Button(root, image=Gen_key_btn3,borderwidth=0,highlightthickness=0,pady=200, command=decryptQR)
 scan_button.place(x=290, y=400)
 
