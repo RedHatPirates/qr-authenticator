@@ -23,4 +23,5 @@ After successful QR generation a `qrcode.png` file will be generated in the fold
 
 ## Scanning QR Code
 Click the `Scan QR` option, a webcam window will pop up hold your QR before it, your password will be decrypted and shown in a dialog box as below
+
 <img src="https://user-images.githubusercontent.com/127814946/224887434-6d5acb29-cdd7-4d14-a8cc-ede5042e10a9.png"><br>
